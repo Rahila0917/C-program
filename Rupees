@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+  int amt,hundreds,fifties,tens;
+  printf("Enter amount:");
+  scanf("%d",&amt);
+  hundreds=amt/100;
+  amt%=100;
+  fifties=amt/50;
+  amt%=50;
+  tens=amt/10;
+  printf("\n no.of hundreds:%d",hundreds);
+  printf("\n no.of fifties:%d",fifties);
+  printf("\n no.of tens:%d",tens);
+}
