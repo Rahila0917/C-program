@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c,sum;
+int x,y,z,sum;
 float average;
 printf ("enter number 1 :");
-scanf ("%d", &a);
+scanf ("%d", &x);
 printf("enter number 2 :");
-scanf ("%d", &b) ;
+scanf ("%d", &y);
 printf("enter number 3 :");
-scanf ("%d", &c) ;
-sum=a+b+c;
+scanf ("%d", &z);
+sum=x+y+z;
 printf("sum=%d",sum);
 average=sum/3;
 printf ("\naverage=%f",average);
